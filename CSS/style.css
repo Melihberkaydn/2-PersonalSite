@@ -1,0 +1,118 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  text-align: center;
+  font-family:'Merriweather', serif;
+}
+
+h1 {
+  /* width: 10%; */
+  font-family: 'Sacramento', cursive;
+  margin:0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+hr {
+  margin:0;
+  /* display: inline; */
+  border-style: none;
+  border-top-style:dotted;
+  border-color: #0d335d;
+  border-width: 6px;
+  /* width: 6%; */
+  /* height: 5px; */
+  background-color: #cdac81;
+}
+
+
+.top-hr {
+  border-color: #f5f4f4;
+  background-color: #cae4db;
+}
+
+.middle-hr {
+  border-color: #cdac81;
+  background-color: #f5f4f4;
+}
+
+.bottom-hr {
+  border-color: #00303f;
+  background-color: #cdac81;
+}
+
+.top-header {
+  font-size: 60px;
+}
+
+.pro-span {
+  text-decoration: underline;
+}
+
+
+/*############ DIVS CSS *#############*/
+
+.Topcontainer {
+  background-color: #cae4db;
+  position: relative;
+  padding-top: 100px;
+  /* height: 200px;
+  width: 200px; */
+}
+
+.profile {
+  background-color: #f5f4f4;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.skills {
+  background-color: #cdac81;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.contact-me, .bottom-container {
+  background-color: #00303f;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+
+/*############ PNG's *#############*/
+
+.mountain {
+  position: relative;
+  top:10px;
+}
+
+.top-cloud {
+  position: absolute;
+  right:30%;
+  top:40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left:30%;
+  top:250px;
+}
+
+.melih-picture {
+  padding-top: 20px;
+  height: 250px;
+}
