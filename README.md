@@ -1,4 +1,4 @@
-# 2-PersonalSite
+# PersonalSite
 
 
 ## Demo
